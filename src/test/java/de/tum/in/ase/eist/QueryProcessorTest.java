@@ -8,14 +8,14 @@ import static org.junit.jupiter.api.Assertions.fail;
 class QueryProcessorTest {
 
 	private final QueryProcessor queryProcessor = new QueryProcessor();
-	/*
+
 	@Test
 	void testEmptyStringIfCannotProcessQuery() {
 		assertEquals("", queryProcessor.process("test"));
 	}
-	/*
-	/* @Test
-	//void testKnowsAboutShakespeare() {
+
+	 @Test
+	void testKnowsAboutShakespeare() {
 		String actual = queryProcessor.process("Shakespeare");
 		if (!actual.contains("playwright")) {
 			fail("The QueryProcessor does not know about Shakespeare.");
@@ -28,6 +28,6 @@ class QueryProcessorTest {
 		if (!actual.contains("playwright")) {
 			fail("Your QueryProcessor should not be case sensitive.");
 		}
-	} */
+	}
 
 }

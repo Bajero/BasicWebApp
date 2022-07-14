@@ -15,7 +15,7 @@ public class QueryProcessor {
                     "English poet, playwright, and actor, widely regarded as the greatest " +
                     "writer in the English language and the world's pre-eminent dramatist.";
         } else if (query.contains("name")) {
-           return "Djeksjd";
+           return "Djsadjas";
         } else if (query.contains("plus")){
             int i1 = scanner.nextInt();
             int i2 = scanner.nextInt();
@@ -24,7 +24,7 @@ public class QueryProcessor {
             int i1 = scanner.nextInt();
             int i2 = scanner.nextInt();
             return i1 > i2 ? String.valueOf(i1) : String.valueOf(i2);
-        }
-            return "null";
+        } else
+            return "";
     }
 }
