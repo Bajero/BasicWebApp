@@ -13,7 +13,7 @@ public class QueryProcessor {
         if (query.contains("name")) {
             return "Djekss";
         }
-        if (query.contains("plus")) {
+        else if (query.contains("plus")) {
             int i1 = scan.nextInt();
             int i2 = scan.nextInt();
             return String.valueOf(i1+i2);
