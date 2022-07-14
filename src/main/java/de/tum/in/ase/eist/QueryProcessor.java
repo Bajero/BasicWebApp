@@ -16,7 +16,7 @@ public class QueryProcessor {
                     "writer in the English language and the world's pre-eminent dramatist.";
         } else if (query.contains("name")) {
            return "Djeksjd";
-        } else if (query.contains("plus")){ // TODO extend the programm here
+        } else if (query.contains("plus")){
             int i1 = scanner.nextInt();
             int i2 = scanner.nextInt();
             return String.valueOf(i1+i2);
